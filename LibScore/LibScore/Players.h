@@ -4,8 +4,11 @@ using namespace std;
 class Player
 {
 	private:
-		string nombre;
-		int score;
+		string _nombre;
+		int _score;
 	public:
+		Player();
 		Player(string, int);
+		string getNombre();
+		int getScore();
 };
